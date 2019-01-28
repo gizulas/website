@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Denemeler</title>
+</head>
+<body style="background-color: #b8dffa;">
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><strong>&#8593;</strong></button>
+
+	<header>
+		<p><a href="index.html" alt="landing page">gizem ulaş yerli</a></p>
+		<div class="social">
+			<!--github icon-->					
+			<a href="https://github.com/gizulas" target="_blank"><img src="photo/github.png"></a> 
+			<!--linkedin icon-->
+			<a href="https://linkedin.com/in/gizem-ulaş-yerli-93540345" target="_blank"><img src="photo/linkedin2.png"></a>
+			<!--twitter icon-->										
+			<a href="https://twitter.com/gizmo_ulas" target="_blank"><img src="photo/twitter5.png"></a> 
+		</div>
+	</header>
+
+	<section class="hero">
+			<div class="container">
+				<h1>Joomla!</h1>
+				<span class="date">Kasım 26,2018</span>
+				<figure style="background-image: url(photo/joomla5.png); background-size: contain; background-repeat: no-repeat; background-position: center;"></figure>
+			</div>
+	</section>
+
+	<article class="bloglist">
+		<div class="container">
+			<div class="text">	
+				<p>
+					Joomla! web siteleri ve güçlü çevrim içi uygulama yapabileceğiniz ödüllü bir içerik yönetim sistemidir (İYS). Kolay kullanılabilirliği ve genişletilebilirliği dahil olmak üzere birçok özelliği ile Joomla! en fazla tutulan web sitesi yazılımıdır. Hepsinden iyisi, Joomla! herkesin özgürce ulaşabileceği açık kaynak bir çözümdür. Diğer birçok içerik yönetim sisteminde olduğu gibi Joomla içerisinde de kullanıcılar teknik gereklilikler uğraşmak zorunda kalmadan kullanıcı arayüzleri yardımıyla kendi web sitelerini meydana getirebilir ve istedikleri gibi yönetebilirler.
+				</p>
+				<h3>İçerik yönetim sistemi (İYS) nedir?</h3>
+				<p>
+					İçerik yönetim sistemi, yerel bir kütüphanede kitapların kayıtlarının tutulması ve depolanması gibi web sitenizdeki içeriğin her bir parçasının kayıtlarını saklayan bir yazılımdır. İçerik basit metin, resimler, müzik, video, belgeler ya da düşündüğünüz herhangi birşey olabilir. İYS kullanmanın en belirgin avantajı yönetim için herhangi bir teknik bilgi ya da deneyim gerektirmemesidir. İYS içeriğinizi yönettiği sürece sizin yapmanız gerekmez.
+				</p>
+			</div>
+			<div>
+				<figure style="background-image: url(photo/joomla3.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;"></figure>
+			</div>
+			<div class="text">	
+				<h3>Joomla! ile yapılan bazı gerçek örnekler nedir?</h3>
+				<p>
+					Joomla! tüm dünyada her şekilde ve boyutta güçlü web siteleri için kullanılmaktadır. Örneğin:
+				</p>
+				<ul>
+					<li>Şirket web siteleri ya da portalları</li>
+					<li>Şirket iç ve dış ağları</li>
+					<li>Çevrimiçi haber bültenleri, gazeteler ve yayınlar</li>
+					<li>e-Ticaret ve çevrimiçi rezervasyonlar</li>
+					<li>Hükümet uygulamaları</li>
+					<li>Küçük iş yeri web siteleri</li>
+					<li>Ticari amaç güdmeyen ve organizasyonların web siteleri</li>
+					<li>Topluluk tabanlı portallar</li>
+					<li>Okul ve ibadethane web siteleri</li>
+					<li>Kişisel ya da ailevi sayfalar</li>
+				</ul>
+				<h3>Joomla!'nın Sahip Olduğu Başlıca Özellikler;</h3>
+				<p>
+					Kullanıcılarının deneyimini arttırmak için 6000'in üzerinde kullanılabilir eklenti modülünü içerisinde barındırır. Responsive şablonlar yardımıyla Joomla! web siteleri kolayca mobil cihazlara adapte edilebilir. Dosya yazma ve okuma izinleri kurulumdan ayarlıdır ve ekstradan güvenlik için yazma okuma izinlerini düzenlemeye gerek yoktur. Türkçe'de dahil olmak üzere birçok popüler dilde desteği vardır.
+				</p>
+			</div>
+		</div>	
+	</article>
+
+	<footer>
+		<div class="container">
+			<div class="seperator"></div>
+			<div class="info">
+				<p class="copyright">
+					&#169; Copyright 2019 Gizem Ulas Yerli. All rights reserved.
+				</p>
+				<p class="mail">
+					<a href="mailto:gizulas@gmail.com?" target="_blank">gizulas@gmail.com</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 520 || document.documentElement.scrollTop > 520) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>	
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Denemeler</title>
+</head>
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><strong>&#8593;</strong></button>
+
+	<header>
+		<p>gizem ulaş yerli</p>
+		<div class="social">
+			<!--github icon-->					
+			<a href="https://github.com/gizulas" target="_blank"><img src="photo/github.png"></a> 
+			<!--linkedin icon-->
+			<a href="https://linkedin.com/in/gizem-ulaş-yerli-93540345" target="_blank"><img src="photo/linkedin2.png"></a>
+			<!--twitter icon-->										
+			<a href="https://twitter.com/gizmo_ulas" target="_blank"><img src="photo/twitter5.png"></a> 
+		</div>
+	</header>
+
+
+	<section class="hero">
+			<div class="container">
+				<h1>
+					Merhaba,
+				</h1>
+				<p>
+					Ben Gizem, 10 yıl boyunca kurumsal bir firmanın Satış Planlama ve ERP departmanında görev yaptım. SAP projesinde keyuser olarak çalıştım. İşim gereği bilgi teknolojileri birimiyle içi içe çalışsamda ekranın hep ön yüzündeydim. Ama aklım hep bunları nasıl yapıyorlar acabaya takılmıştı. Şimdi nasıl yapıldığını öğrendiğim bir yolculuğa başladım...
+				</p>
+			</div>
+	</section>
+			
+	<section class="bloglist">
+		<article style="background-color: #FFF3D9;">
+			<div class="container">
+				<div class="row">
+					<figure style="background-image: url(photo/website.jpg); background-size: cover;"></figure>
+					<div class="intro">
+						<h2>Web Sitesi Yapmak</h2>
+						<span class="date">Ocak 17,2019</span>
+						<p>
+							Kendi web sitenizi mi yapmak istiyorsunuz? Google’da arattığınızda karşınıza milyonlarca şey çıkıyor. Eee haliyle kafalar yanıyor azıcık, tabi benim gibi programcılık konusunda sıfırsanız. Öğrendiğim şeyleri paylaşabileceğim, fikirlerimi paylaşabileceğim kendime ait bir bir web sitesi yapmak istiyordum ama nereden başlıyacağımı pek bilmiyordum.
+						</p>
+						<a href="websitesi.html"><span class="rest">Devamı</span></a>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article style="background-color: #b8dffa;">
+			<div class="container">
+			<div class="row">
+				<figure style="background-image: url(photo/joomla5.png); background-size: contain; background-repeat: no-repeat;background-position: center; background-color:#0d6dab;"></figure>
+				<div class="intro">
+					<h2>Joomla</h2>
+					<span class="date">Kasım 26,2018</span>
+					<p>
+						Joomla! web siteleri ve güçlü çevrim içi uygulama yapabileceğiniz ödüllü bir içerik yönetim sistemidir (İYS). Kolay kullanılabilirliği ve genişletilebilirliği dahil olmak üzere birçok özelliği ile Joomla! en fazla tutulan web sitesi yazılımıdır. Hepsinden iyisi, Joomla! herkesin özgürce ulaşabileceği açık kaynak bir çözümdür.
+					</p>
+					<a href="joomla.html"><span class="rest">Devamı</span></a>
+				</div>
+			</div>
+		</div>
+		</article>
+
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="seperator"></div>
+			<div class="info">
+				<p class="copyright">
+					&#169; Copyright 2019 Gizem Ulas Yerli. All rights reserved.
+				</p>
+				<p class="mail">
+					<a href="mailto:gizulas@gmail.com?" target="_blank">gizulas@gmail.com</a>
+				</p>
+			</div>
+		</div>
+	</footer>	
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 520 || document.documentElement.scrollTop > 520) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+</script>	
+
+</body>
+
+</html>
